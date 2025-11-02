@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Uğur Can Yıldırım - Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- 💡 YouTube Embed Fix for GitHub Pages -->
+  <meta http-equiv="Content-Security-Policy"
+        content="upgrade-insecure-requests; frame-src https://www.youtube.com https://www.youtube-nocookie.com https://player.vimeo.com;">
 </head>
 <body class="bg-gray-900 text-white font-sans">
 
@@ -21,20 +25,20 @@
   <!-- ABOUT -->
   <section class="max-w-3xl mx-auto text-center border-t border-cyan-600 pt-6 px-4">
     <h2 class="text-2xl font-semibold text-cyan-400 mb-2">Merhaba!</h2>
-  <div class="text-left text-gray-300 text-sm leading-relaxed space-y-4">
-    <p>
-      Oyun geliştirme tutkusunu profesyonel bir kariyere dönüştürmüş bir Unity Oyun Geliştiricisiyim. Oyun geliştirme yolculuğum, Game Maker Studio 2 ile küçük bir ekiple bağımsız projeler üreterek başladı. Bu dönemde oyun üretiminin teknik ve yaratıcı taraflarında aktif rol aldım.
-    </p>
-    <p>
-      Daha sonra Boom Codes bünyesinde profesyonel olarak çalıştım. Burada yazılım geliştirmenin yanı sıra oyun ve level tasarımı, tanıtım materyalleri hazırlama gibi farklı alanlarda görev aldım. Stüdyo, Rollic, Supersonic ve Crazy Labs gibi önemli yayıncılarla iş birliği yaparak projelerini yayınladı. Bu süreçte üzerinde çalıştığım projeler önemli ilerlemeler kaydetti. Özellikle “Gun Plus Fever”, iOS ve Android platformlarında 500.000’in üzerinde indirme sayısına ulaşarak dikkat çekici bir başarı elde etti. Küçük ama etkili bir ekibe sahip olan şirket, yaklaşık üç yıl boyunca başarılı projeler geliştirdi ve bu ekibin dinamik bir parçası olmaktan gurur duydum.
-    </p>
-    <p>
-      Boom Codes sonrasında, bağımsız bir ekiple hyper-casual türünde mobil oyunlar geliştirmeye devam ederek sektördeki varlığımı aktif tuttum.
-    </p>
-    <p>
-      Şu anda bağımsız Unity projeleri üzerinde çalışıyor ve yeni kariyer fırsatlarına açığım.
-    </p>
-  </div>
+    <div class="text-left text-gray-300 text-sm leading-relaxed space-y-4">
+      <p>
+        Oyun geliştirme tutkusunu profesyonel bir kariyere dönüştürmüş bir Unity Oyun Geliştiricisiyim. Oyun geliştirme yolculuğum, Game Maker Studio 2 ile küçük bir ekiple bağımsız projeler üreterek başladı. Bu dönemde oyun üretiminin teknik ve yaratıcı taraflarında aktif rol aldım.
+      </p>
+      <p>
+        Daha sonra Boom Codes bünyesinde profesyonel olarak çalıştım. Burada yazılım geliştirmenin yanı sıra oyun ve level tasarımı, tanıtım materyalleri hazırlama gibi farklı alanlarda görev aldım. Stüdyo, Rollic, Supersonic ve Crazy Labs gibi önemli yayıncılarla iş birliği yaparak projelerini yayınladı. Bu süreçte üzerinde çalıştığım projeler önemli ilerlemeler kaydetti. Özellikle “Gun Plus Fever”, iOS ve Android platformlarında 500.000’in üzerinde indirme sayısına ulaşarak dikkat çekici bir başarı elde etti. Küçük ama etkili bir ekibe sahip olan şirket, yaklaşık üç yıl boyunca başarılı projeler geliştirdi ve bu ekibin dinamik bir parçası olmaktan gurur duydum.
+      </p>
+      <p>
+        Boom Codes sonrasında, bağımsız bir ekiple hyper-casual türünde mobil oyunlar geliştirmeye devam ederek sektördeki varlığımı aktif tuttum.
+      </p>
+      <p>
+        Şu anda bağımsız Unity projeleri üzerinde çalışıyor ve yeni kariyer fırsatlarına açığım.
+      </p>
+    </div>
   </section>
 
   <!-- PROJECTS -->
@@ -42,9 +46,15 @@
     <h2 class="text-2xl font-semibold text-cyan-400 mb-6 text-center">Projelerim</h2>
     <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
 
-      <!-- Game Card -->
+      <!-- Game Card 1 -->
       <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
-        <img src="https://via.placeholder.com/400x300.png?text=Game+Cover" alt="Game Cover" class="w-full h-48 object-cover">
+        <div class="aspect-video">
+          <iframe 
+            class="w-full h-full"
+            src="https://www.youtube.com/embed/T_MxmYulqfY"
+            allowfullscreen>
+          </iframe>
+        </div>
         <div class="p-4 text-center">
           <h3 class="text-lg font-semibold text-cyan-400 mb-2">Gun Plus Fever</h3>
           <div class="flex justify-center gap-4 mt-3">
@@ -54,16 +64,19 @@
             <a href="#" target="_blank">
               <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Play_Arrow_logo.svg" class="w-8 h-8" alt="Google Play">
             </a>
-            <a href="#" target="_blank">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/YouTube_social_white_circle_%282017%29.svg" class="w-8 h-8" alt="YouTube">
-            </a>
           </div>
         </div>
       </div>
 
-      <!-- Game Card -->
+      <!-- Game Card 2 -->
       <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
-        <img src="https://via.placeholder.com/400x300.png?text=Game+Cover" alt="Game Cover" class="w-full h-48 object-cover">
+        <div class="aspect-video">
+          <iframe 
+            class="w-full h-full"
+            src="https://www.youtube.com/embed/VIDEO_ID_2"
+            allowfullscreen>
+          </iframe>
+        </div>
         <div class="p-4 text-center">
           <h3 class="text-lg font-semibold text-cyan-400 mb-2">Idle Food Fest</h3>
           <div class="flex justify-center gap-4 mt-3">
@@ -73,16 +86,19 @@
             <a href="#" target="_blank">
               <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Play_Arrow_logo.svg" class="w-8 h-8" alt="Google Play">
             </a>
-            <a href="#" target="_blank">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/YouTube_social_white_circle_%282017%29.svg" class="w-8 h-8" alt="YouTube">
-            </a>
           </div>
         </div>
       </div>
 
-      <!-- Game Card -->
+      <!-- Game Card 3 -->
       <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
-        <img src="https://via.placeholder.com/400x300.png?text=Game+Cover" alt="Game Cover" class="w-full h-48 object-cover">
+        <div class="aspect-video">
+          <iframe 
+            class="w-full h-full"
+            src="https://www.youtube.com/embed/VIDEO_ID_3"
+            allowfullscreen>
+          </iframe>
+        </div>
         <div class="p-4 text-center">
           <h3 class="text-lg font-semibold text-cyan-400 mb-2">Block Sweep</h3>
           <div class="flex justify-center gap-4 mt-3">
@@ -91,9 +107,6 @@
             </a>
             <a href="#" target="_blank">
               <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Play_Arrow_logo.svg" class="w-8 h-8" alt="Google Play">
-            </a>
-            <a href="#" target="_blank">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/YouTube_social_white_circle_%282017%29.svg" class="w-8 h-8" alt="YouTube">
             </a>
           </div>
         </div>
