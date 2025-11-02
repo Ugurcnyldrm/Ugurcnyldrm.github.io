@@ -1,471 +1,101 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--
-    Meta Tags
-    -->
-    <title>Uğur Can Yıldırım - a Unity Game Developer Portfolio</title>
-    <meta name="title" content="Uğur Can Yıldırım - a Unity Game Developer Portfolio">
-    <meta name="description" content="this is a personal portfolio">
-    <!--
-    Link Tags
-    -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
-    <link rel="stylesheet" href="Style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uğur Can Yıldırım - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
+<body class="bg-gray-900 text-white font-sans">
 
+  <!-- HEADER -->
+  <header class="text-center py-10">
+    <h1 class="text-4xl font-bold text-cyan-400">Uğur Can Yıldırım</h1>
+    <p class="text-gray-400 mt-2">Aksaray, Türkiye</p>
+    <div class="flex justify-center gap-4 mt-3">
+      <a href="mailto:ugur@example.com" class="text-cyan-400 hover:underline">ugur@example.com</a>
+      <a href="https://linkedin.com/in/username" target="_blank" class="text-cyan-400 hover:underline">LinkedIn</a>
+    </div>
+  </header>
 
-<body>
-    <!--
-        -#Top Bar
-    -->
-    <header class="topbar">
+  <!-- ABOUT -->
+  <section class="max-w-3xl mx-auto text-center border-t border-cyan-600 pt-6 px-4">
+    <h2 class="text-2xl font-semibold text-cyan-400 mb-2">About</h2>
+    <p class="text-gray-300 text-sm leading-relaxed">
+      I’m a Unity Game Developer passionate about creating engaging hyper-casual and hybrid-casual experiences.
+      I love crafting mechanics, polishing gameplay, and designing visually clean projects that are fun and addictive.
+    </p>
+  </section>
 
-        <button class="icon-btn theme-btn" data-theme-btn>
-            <span class="material-symbols-outlined dark" aria-hidden="true">dark_mode</span>
-            <span class="material-symbols-outlined light" aria-hidden="true">light_mode</span>
+  <!-- PROJECTS -->
+  <section class="max-w-6xl mx-auto mt-10 px-4">
+    <h2 class="text-2xl font-semibold text-cyan-400 mb-6 text-center">Projects</h2>
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
 
-            <div class="state-layer">
-
-            </div>
-        </button>
-
-    </header>
-
-    <main>
-
-        <article>
-            <section class="section hero">
-                <div class="container">
-                    <figure class="hero-banner img-holder" style="--width:240; --height:240;">
-                        <img src="https://media.licdn.com/dms/image/v2/D4D03AQH42xUrpd0tHg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1682254961453?e=1756339200&v=beta&t=B5xEZX3Rm84LOKqXadgeQbd0RLgejrVsb9W0rcp7WDk" width="240" height="240" alt="Uğur Can Yıldırım" class="img-cover">
-                        <!--
-                        <div class="hover-image">
-                            <img src="images/redpanda-1.png" width="240" height="240" class="img-hover">
-                        </div>
-                        -->
-                    </figure>
-
-                    <div class="hero-content">
-                        <span class="label-large section-subtitle">Unity Game Developer</span>
-                        <h1 class="display-small">Uğur Can Yıldırım</h1>
-                        <p class="body-large section-text">Hello, let me tell you a few things about myself.</p>
-                        <div class="btn-wrapper">
-                            <a href="mailto:ugurcnyldrm68@gmail.com" class="chip">
-                                <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
-                                <span class="label-large">ugurcnyldrm68@gmail.com</span>
-                                <div class="state-layer"></div>
-                            </a>
-
-                           
-                          
-
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-            <!--
-            -#MAIN CONTENT
-            -->
-            <div class="article">
-                <div class="about-card">
-                    <h2 class="card-title title-medium">About</h2>
-                    <p class="body-medium card-text">
-                        Hello! <br> I am a Unity Game Developer who has turned my passion for game development into a career. For the past four years, I have been actively working in this field and have had the opportunity to take on significant roles in various projects.<br> Most recently, at the company I worked for, I contributed not only to software development but also to game design, creation of in-game dynamics, and the preparation of promotional videos.
-
-                        <br><br>During this period, the projects I worked on made significant progress. In particular, the game 'Gun Plus Fever' achieved notable success by reaching over 250,000 downloads on both iOS and Android platforms. The company, with a small but effective team, successfully developed projects over a span of about three years, and I was proud to be a dynamic part of that team.
-
-                        <br><br>I am currently open to new career opportunities.
-                    </p>
-
-                    <ul class="about-list">
-                        <li class="list-item">
-                            <span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
-                            <span class="label-medium">Aksaray, Turkiye</span>
-                        </li>
-                        <!--
-                        <li class="list-item">
-                            <span class="material-symbols-outlined" aria-hidden="true"> work </span>
-                            <span class="label-medium">Boom Codes Games</span>
-                        </li>
-                        -->
-                        <li class="list-item">
-                            <span class="material-symbols-outlined" aria-hidden="true"> captive_portal </span>
-                            <a href="https://www.linkedin.com/in/u%C4%9Fur-can-y%C4%B1ld%C4%B1r%C4%B1m-8aab3b262/" class="label-medium" target="_blank" rel="noreferrer noopener">LinkedIn</a>
-                        </li>
-                    </ul>
-                </div>
-
-
-                <div>
-                    <!--
-                -#PRIMARY TABS
-                -->
-                    <div class="primary-tabs">
-
-                        <button class="tab-btn active" data-tab-btn="resume">
-                            <span class="tab-text title-small">Resume</span>
-                            <div class="state-layer"></div>
-                        </button>
-
-                        <!--
-                        <button class="tab-btn" data-tab-btn="contact">
-                            <span class="tab-text title-small">Contact</span>
-                            <div class="state-layer"></div>
-                        </button>
-                        -->
-                        <button class="tab-btn" data-tab-btn="work">
-                            <span class="tab-text title-small">Portfolio</span>
-                            <div class="state-layer"></div>
-                        </button>
-
-                        <button class="tab-btn" data-tab-btn="project">
-                            <span class="tab-text title-small">Gameplay</span>
-                            <div class="state-layer"></div>
-                        </button>
-                        <!--
-                           <button class="tab-btn" data-tab-btn="cpi">
-                            <span class="tab-text title-small">My CPI Works</span>
-                            <div class="state-layer"></div>
-                        </button>
-                        -->
-                        
-                    </div>
-
-
-                    <!--
-                -#RESUME
-                -->
-                    <section class="section tab-content resume-tab active" data-tab-content="resume">
-                        <div class="container">
-                            <h1 class="section-title title-large"><b>Experiences</b></h1>
-                            <ul class="list">
-                                <li class="resume-item">
-                                    <div class="resume-card">
-                                        <p class="body-large">Game Developer, Boom Codes Games</p>
-                                        <span class="label-medium card-subtitle">2022 - 2024</span><br>
-                                        <span class="body-medium card-text">
-                                            - Unity Game Development:
-                                            <br>&nbsp;&nbsp;&nbsp;&nbsp;- Over two years of active experience in the field.
-                                            <br>&nbsp;&nbsp;&nbsp;&nbsp;- Developed numerous hyper-casual games.  <br><br>
-                                            - Project Involvement:
-                                            <br>&nbsp;&nbsp;&nbsp;&nbsp;- Participated in every stage of project development.
-                                            <br>&nbsp;&nbsp;&nbsp;&nbsp;- Involved in game design processes, creating in-game dynamics, and preparing promotional videos.<br><br>
-                                            - Team Collaboration:
-                                            <br>&nbsp;&nbsp;&nbsp;&nbsp;- Part of a small, dynamic, and effective team.
-                                            <br>&nbsp;&nbsp;&nbsp;&nbsp;- Contributed to a company that has been successfully operating for about three years.<br><br>
-                                            - Creative and Technical Skills:
-                                            <br>&nbsp;&nbsp;&nbsp;&nbsp;- Combines creativity and technical expertise to deliver unique and impactful contributions to each project.
-
-                                        </span>
-                                    </div>
-                                </li>
-                            </ul>
-           
-                   
-                        </div>
-                    </section>
-                    <!--
-                    -#Work
-                    -->
-                    <section class="section tab-content work-tab" data-tab-content="work">
-                        <div class="container">
-                            <h1 class="section-title title-large"><b>Games</b></h1>
-                            <u class="resume-bottom-list">
-                                <li class="resume-bottom-item">
-                                    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/c5/ef/4dc5effb-beaf-3805-8030-b081f9c6704b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/230x0w.webp" width="28" height="28" loading="lazy" alt="blender" class="icon" style="border-radius: var(--radius-small)">
-                                    <span class="label-small card-subtitle" style="font-size: 8px">Hybridcasual<h3 class="label-medium"><b>My Snack Kingdom</b></h3></span>
-                                    <a href="https://apps.apple.com/tr/app/my-snack-kingdom/id6503148215" class="state-layer" target="_blank" rel="noreferrer noopener"></a><br>
-                                    <span class="material-symbols-outlined" style="font-size: 18px">ios</span>
-                                </li>
-                                <li class="resume-bottom-item">
-                                    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/7c/dd/6a7cddf1-3145-8eb9-ab42-190006df12bd/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/230x0w.webp" width="28" height="28" loading="lazy" alt="blender" class="icon" style="border-radius: var(--radius-small)">
-                                    <span class="label-small card-subtitle" style="font-size: 8px">Hybridcasual<h3 class="label-medium"><b>My Tasty Empire</b></h3></span>
-                                    <a href="https://apps.apple.com/gr/app/my-tasty-empire/id6502766369" class="state-layer" target="_blank" rel="noreferrer noopener"></a><br>
-                                    <span class="material-symbols-outlined" style="font-size: 18px">ios</span>
-                                </li>
-                                <li class="resume-bottom-item">
-                                    <img src="images/appicon/GunPlusFever.png" width="28" height="28" loading="lazy" alt="blender" class="icon" style="border-radius: var(--radius-small)">
-                                    <span class="label-small card-subtitle" style="font-size: 8px">Hypercasual-Game<h3 class="label-medium"><b>Gun Plus Fever!</b></h3></span>
-                                    <a href="https://play.google.com/store/apps/details?id=com.BoomCodes.GunPlusFever&hl=en_US" class="state-layer" target="_blank" rel="noreferrer noopener"></a><br>
-                                    <span class="material-symbols-outlined" style="font-size: 18px">android</span>
-                                </li>
-                                <li class="resume-bottom-item">
-                                    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/19/4d/11194dc2-601b-022f-e506-342b731d7aa6/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/230x0w.webp" width="28" height="28" loading="lazy" alt="blender" class="icon" style="border-radius: var(--radius-small)">
-                                    <span class="label-small card-subtitle" style="font-size: 8px">Hypercasual-Game<h3 class="label-medium"><b>Spray Runner</b></h3></span>
-                                    <a href="https://apps.apple.com/tr/app/spray-runner/id6450445044" class="state-layer" target="_blank" rel="noreferrer noopener"></a><br>
-                                    <span class="material-symbols-outlined" style="font-size: 18px">ios</span>
-                                </li>
-                                <li class="resume-bottom-item">
-                                    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/20/52/d3/2052d3e1-0d5a-dc75-125a-af186f51e079/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/230x0w.webp" width="28" height="28" loading="lazy" alt="blender" class="icon" style="border-radius: var(--radius-small)">
-                                    <span class="label-small card-subtitle" style="font-size: 8px">Hypercasual-Game<h3 class="label-medium"><b>Rubberball Runner</b></h3></span>
-                                    <a href="https://play.google.com/store/apps/details?id=com.BoomCodes.RubberballRunner&hl=en_US" class="state-layer" target="_blank" rel="noreferrer noopener"></a><br>
-                                    <span class="material-symbols-outlined" style="font-size: 18px">android</span>
-                                </li>
-                                <li class="resume-bottom-item">
-                                    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/b1/61/4c/b1614cb2-27b6-2526-b1c8-a4ed5b2cd6e4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/230x0w.webp" width="28" height="28" loading="lazy" alt="blender" class="icon" style="border-radius: var(--radius-small)">
-                                    <span class="label-small card-subtitle" style="font-size: 8px">Hypercasual-Game<h3 class="label-medium"><b>Repair and Drag</b></h3></span>
-                                    <a href="https://apps.apple.com/us/app/repair-and-drag/id6462086203" class="state-layer" target="_blank" rel="noreferrer noopener"></a><br>
-                                    <span class="material-symbols-outlined" style="font-size: 18px">ios</span>
-                                </li>
-                                <li class="resume-bottom-item">
-                                    <img src="https://play-lh.googleusercontent.com/XOAADMQCddLXQEMsnwB-UC5_t2F4MPFn5L3LFtcic7-RtkoNcW5khSNokjcjUHcpnXA=w240-h480-rw" width="28" height="28" loading="lazy" alt="blender" class="icon" style="border-radius: var(--radius-small)">
-                                    <span class="label-small card-subtitle" style="font-size: 8px">Hypercasual-Game<h3 class="label-medium"><b>Deep Cleaner</b></h3></span>
-                                    <a href="https://apps.apple.com/tr/app/deep-cleaner/id6451485222" class="state-layer" target="_blank" rel="noreferrer noopener"></a><br>
-                                    <span class="material-symbols-outlined" style="font-size: 18px">ios</span>
-                                </li>
-                                <li class="resume-bottom-item">
-                                    <img src="https://play-lh.googleusercontent.com/F3e9wq8uLfiQtXD1xDBbt3ys-QkP2150A_H8buXju4pyIk4P1FedwpgcMuIEFnW1XCE=w240-h480-rw" width="28" height="28" loading="lazy" alt="blender" class="icon" style="border-radius: var(--radius-small)">
-                                    <span class="label-small card-subtitle" style="font-size: 8px">Hypercasual-Game<h3 class="label-medium"><b>Gold Vacuuming Run</b></h3></span>
-                                    <a href="https://apps.apple.com/tr/app/gold-vacuuming-run/id6448026725" class="state-layer" target="_blank" rel="noreferrer noopener"></a><br>
-                                    <span class="material-symbols-outlined" style="font-size: 18px">ios</span>
-                                </li>
-                                <li class="resume-bottom-item">
-                                    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/1f/30/07/1f300768-b851-b4fd-9e5d-79b2c9cf9567/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.webp" width="28" height="28" loading="lazy" alt="blender" class="icon" style="border-radius: var(--radius-small)">
-                                    <span class="label-small card-subtitle" style="font-size: 8px">Hypercasual-Game<h3 class="label-medium"><b>My Candy Factory!</b></h3></span>
-                                    <a href="https://apps.apple.com/tr/app/my-candy-factory/id1673405143" class="state-layer" target="_blank" rel="noreferrer noopener"></a><br>
-                                    <span class="material-symbols-outlined" style="font-size: 18px">ios</span>
-                                </li>
-                                <li class="resume-bottom-item">
-                                    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/57/51/2e/57512e52-cd85-91a2-8b5a-2620911d1e4e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.webp" width="28" height="28" loading="lazy" alt="blender" class="icon" style="border-radius: var(--radius-small)">
-                                    <span class="label-small card-subtitle" style="font-size: 8px">Hypercasual-Game<h3 class="label-medium"><b>Tight the Rope</b></h3></span>
-                                    <a href="https://apps.apple.com/tr/app/tight-the-rope/id1668356302" class="state-layer" target="_blank" rel="noreferrer noopener"></a><br>
-                                    <span class="material-symbols-outlined" style="font-size: 18px">ios</span>
-                                </li>
-                                <li class="resume-bottom-item">
-                                    <!-- <img src="" width="28" height="28" loading="lazy" alt="blender" class="icon" style="border-radius: var(--radius-small)"> -->
-                                    <span class="label-small card-subtitle" style="font-size: 8px">Hypercasual-Game<h3 class="label-medium"><b>Car Repair Shooter</b></h3></span>
-                                    <a href="#" class="state-layer" target="_blank" rel="noreferrer noopener"></a><br>
-                                    <!--  <span class="material-symbols-outlined" style="font-size: 18px">ios</span> -->
-                                </li>
-                            </u>
-                            <!--
-                            <div class="work-list">
-                                <div class="card">
-                                    <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
-                                        <img src="images/wallpapaer.png" alt="speedmodel" width="334" height="180" class="img-cover">
-                                    </figure>
-                                    <div class="card-content">
-                                        <span class="label-large card-subtitle">Content</span>
-                                        <h3 class="title-large-card-title">coming soon...</h3>
-                                    </div>
-                                </div>
-                            </div>
-                            -->
-                        </div>
-                    </section>
-
-                    <!--
-                -#CONTACT
-                 
-                    <section class="section tab-content contact-tab" data-tab-content="contact">
-                        <div class="container">
-                            <div class="contact-info">
-                                <h4 class="section-title title-small">Contact Info</h4>
-                                <ul class="contact-info-list">
-                                    <li class="contact-info-item">
-                                        <div class="icon-box">
-                                            <span class="material-symbols-outlined" aria-hidden="true">mail</span>
-                                        </div>
-                                        <div class="info-content">
-                                            <p class="label-small info-title">Mail Us</p>
-                                            <a href="mailto:farukonder@icloud.com" class="label-small info-text">Farukonder@icloud.com</a>
-                                        </div>
-                                    </li>
-                                    
-                                    <li class="contact-info-item">
-                                        <div class="icon-box">
-                                            <span class="material-symbols-outlined" aria-hidden="true">call</span>
-                                        </div>
-                                        <div class="info-content">
-                                            <p class="label-small info-title">Contact Us</p>
-                                            <a href="tell:+900000000000" class="label-small info-text">+900000000000</a>
-                                        </div>
-                                    </li>
-                                    
-                                    <li class="contact-info-item">
-                                        <div class="icon-box">
-                                            <span class="material-symbols-outlined" aria-hidden="true">location_on</span>
-                                        </div>
-                                        <div class="info-content">
-                                            <p class="label-small info-title">Address</p>
-                                            <a href="#" class="label-small info-text">Samsun, Turkiye</a>
-                                        </div>
-                                    </li>
-                                    
-                                </ul>
-                                
-                            </div>
-                            <div class="contact-form">
-                                <h3 class="title-large">Let's Work Together.</h3>
-                                <form action="" method="post" class="input-wrapper">
-                                    <input type="text" name="name" placeholder="Name*" required class="input-field">
-                                    <input type="email" name="email" placeholder="e-Mail*" required class="input-field">
-                                    <input type="text" name="subject" placeholder="Subject*" required class="input-field">
-                                    <textarea name="message" placeholder="Message*" required class="textarea"></textarea>
-                                    <button class="btn" type="submit">
-                                        <span class="label-large">Send Message</span>
-                                        <div class="state-layer"></div>
-                                    </button>
-                                </form>
-                            </div>
-                        </div>                    
-                    </section>
-
-                  -->
-                    <!--
-                -#PROJECT - YouTube
-                -->
-                    <section class="section tab-content project-tab" data-tab-content="project">
-                        <div class="container">
-                            <div class="project-list">
-                                <div class="card">
-                                    <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
-                                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/c5/ef/4dc5effb-beaf-3805-8030-b081f9c6704b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/230x0w.webp" alt="speedmodel" width="334" height="180" class="img-cover">
-                                    </figure>
-                                    <div class="card-content">
-                                        <span class="label-large card-subtitle">Gameplay</span>
-                                        <h3 class="title-large-card-title">My Snack Kingdom</h3>
-                                    </div>
-                                    <a href="https://www.youtube.com/watch?v=AnQAz5V2UpM" class="state-layer" target="_blank" rel="noreferrer noopener"></a>
-                                </div>
-                                <div class="card">
-                                    <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
-                                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/7c/dd/6a7cddf1-3145-8eb9-ab42-190006df12bd/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/230x0w.webp" alt="5Tips" width="334" height="180" class="img-cover">
-                                    </figure>
-                                    <div class="card-content">
-                                        <span class="label-large card-subtitle">Gameplay</span>
-                                        <h3 class="title-large-card-title">My Tasty Empire</h3>
-                                    </div>
-                                    <a href="https://www.youtube.com/watch?v=xe0b-UueWKo" class="state-layer" target="_blank" rel="noreferrer noopener"></a>
-                                </div>
-                                <div class="card">
-                                    <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
-                                        <img src="images/appicon/GunPlusFever.png" alt="textureprop" width="334" height="180" class="img-cover">
-                                    </figure>
-                                    <div class="card-content">
-                                        <span class="label-large card-subtitle">Gameplay</span>
-                                        <h3 class="title-large-card-title">Gun Plus Fever</h3>
-                                    </div>
-                                    <a href="https://www.youtube.com/watch?v=T_MxmYulqfY" class="state-layer" target="_blank" rel="noreferrer noopener"></a>
-                                </div>
-                                <div class="card">
-                                    <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
-                                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/19/4d/11194dc2-601b-022f-e506-342b731d7aa6/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/230x0w.webp" alt="sketchfab" width="334" height="180" class="img-cover">
-                                    </figure>
-                                    <div class="card-content">
-                                        <span class="label-large card-subtitle">Gameplay</span>
-                                        <h3 class="title-large-card-title">Spray Runner</h3>
-                                    </div>
-                                    <a href="https://www.youtube.com/shorts/Qv-UIX2tML4?feature=share" class="state-layer" target="_blank" rel="noreferrer noopener"></a>
-                                </div>
-                                <div class="card">
-                                    <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
-                                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/20/52/d3/2052d3e1-0d5a-dc75-125a-af186f51e079/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/230x0w.webp" alt="10Tips" width="334" height="180" class="img-cover">
-                                    </figure>
-                                    <div class="card-content">
-                                        <span class="label-large card-subtitle">Gameplay</span>
-                                        <h3 class="title-large-card-title">Rubber Ball Runner</h3>
-                                    </div>
-                                    <a href="https://www.youtube.com/watch?v=IUL3EnYYcP4&t=74s" class="state-layer" target="_blank" rel="noreferrer noopener"></a>
-                                </div>
-                                <div class="card">
-                                    <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
-                                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/1f/30/07/1f300768-b851-b4fd-9e5d-79b2c9cf9567/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.webp" alt="10Tips" width="334" height="180" class="img-cover">
-                                    </figure>
-                                    <div class="card-content">
-                                        <span class="label-large card-subtitle">Gameplay</span>
-                                        <h3 class="title-large-card-title">My Candy Factory</h3>
-                                    </div>
-                                    <a href="https://youtu.be/9W7-Ng79YTY" class="state-layer" target="_blank" rel="noreferrer noopener"></a>
-                                </div>
-                                <div class="card">
-                                    <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
-                                        <img src="https://play-lh.googleusercontent.com/F3e9wq8uLfiQtXD1xDBbt3ys-QkP2150A_H8buXju4pyIk4P1FedwpgcMuIEFnW1XCE=w240-h480-rw" alt="10Tips" width="334" height="180" class="img-cover">
-                                    </figure>
-                                    <div class="card-content">
-                                        <span class="label-large card-subtitle">Gameplay</span>
-                                        <h3 class="title-large-card-title">Gold Vacuuming Run</h3>
-                                    </div>
-                                    <a href="https://www.youtube.com/shorts/lUqAG0_JgL8?feature=share" class="state-layer" target="_blank" rel="noreferrer noopener"></a>
-                                </div>
-                                <div class="card">
-                                    <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
-                                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/57/51/2e/57512e52-cd85-91a2-8b5a-2620911d1e4e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.webp" alt="10Tips" width="334" height="180" class="img-cover">
-                                    </figure>
-                                    <div class="card-content">
-                                        <span class="label-large card-subtitle">Gameplay</span>
-                                        <h3 class="title-large-card-title">Tight The Rope</h3>
-                                    </div>
-                                    <a href="https://youtu.be/-sd_k5U5HJ0" class="state-layer" target="_blank" rel="noreferrer noopener"></a>
-                                </div>
-                                <div class="card">
-                                    <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
-                                        <img src="https://i9.ytimg.com/vi/F4NDh0mFQ5s/mqdefault.jpg?sqp=CJz94rQG-oaymwEmCMACELQB8quKqQMa8AEB-AHOBYAC_gmKAgwIABABGGIgVChlMA8=&rs=AOn4CLBK3pw9JSvomabaUXJKRdwA5i5ajA" alt="10Tips" width="334" height="180" class="img-cover">
-                                    </figure>
-                                    <div class="card-content">
-                                        <span class="label-large card-subtitle">Gameplay</span>
-                                        <h3 class="title-large-card-title">Car Repair Shooter</h3>
-                                    </div>
-                                    <a href="https://youtu.be/F4NDh0mFQ5s" class="state-layer" target="_blank" rel="noreferrer noopener"></a>
-                                </div>
-                                <div class="card">
-                                    <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
-                                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/b1/61/4c/b1614cb2-27b6-2526-b1c8-a4ed5b2cd6e4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/230x0w.webp" alt="10Tips" width="334" height="180" class="img-cover">
-                                    </figure>
-                                    <div class="card-content">
-                                        <span class="label-large card-subtitle">Gameplay</span>
-                                        <h3 class="title-large-card-title">Repair And Drag</h3>
-                                    </div>
-                                    <a href="https://youtube.com/shorts/ZPteJqZEs-s" class="state-layer" target="_blank" rel="noreferrer noopener"></a>
-                                </div>
-                                 <div class="card">
-                                    <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
-                                        <img src="https://play-lh.googleusercontent.com/XOAADMQCddLXQEMsnwB-UC5_t2F4MPFn5L3LFtcic7-RtkoNcW5khSNokjcjUHcpnXA=w240-h480-rw" alt="10Tips" width="334" height="180" class="img-cover">
-                                    </figure>
-                                    <div class="card-content">
-                                        <span class="label-large card-subtitle">Gameplay</span>
-                                        <h3 class="title-large-card-title">Deep Cleaner</h3>
-                                    </div>
-                                    <a href="https://youtube.com/shorts/7CYjpOUmIHk?feature=share" class="state-layer" target="_blank" rel="noreferrer noopener"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <!--
-                -#CPI - My CPI Works
-
-                -->
-                    
-
-
-                </div>
-            </div>
-
-        </article>
-
-    </main>
-    <!--
-    -#fOOTER
-    -->
-    <footer class="footer">
-        <div class="container">
-            <p class="body-medium">Copyright 2023. All right reserved by codewithsadee</p>
+      <!-- Game Card -->
+      <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
+        <img src="https://via.placeholder.com/400x300.png?text=Game+Cover" alt="Game Cover" class="w-full h-48 object-cover">
+        <div class="p-4 text-center">
+          <h3 class="text-lg font-semibold text-cyan-400 mb-2">Gun Plus Fever</h3>
+          <div class="flex justify-center gap-4 mt-3">
+            <a href="#" target="_blank">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" class="w-8 h-8" alt="App Store">
+            </a>
+            <a href="#" target="_blank">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Play_Arrow_logo.svg" class="w-8 h-8" alt="Google Play">
+            </a>
+            <a href="#" target="_blank">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/YouTube_social_white_circle_%282017%29.svg" class="w-8 h-8" alt="YouTube">
+            </a>
+          </div>
         </div>
-    </footer>
+      </div>
 
+      <!-- Game Card -->
+      <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
+        <img src="https://via.placeholder.com/400x300.png?text=Game+Cover" alt="Game Cover" class="w-full h-48 object-cover">
+        <div class="p-4 text-center">
+          <h3 class="text-lg font-semibold text-cyan-400 mb-2">Idle Food Fest</h3>
+          <div class="flex justify-center gap-4 mt-3">
+            <a href="#" target="_blank">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" class="w-8 h-8" alt="App Store">
+            </a>
+            <a href="#" target="_blank">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Play_Arrow_logo.svg" class="w-8 h-8" alt="Google Play">
+            </a>
+            <a href="#" target="_blank">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/YouTube_social_white_circle_%282017%29.svg" class="w-8 h-8" alt="YouTube">
+            </a>
+          </div>
+        </div>
+      </div>
 
-    <!--
-    Custom js Link
-    -->
-    <script src="./script.js">
-    </script>
+      <!-- Game Card -->
+      <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
+        <img src="https://via.placeholder.com/400x300.png?text=Game+Cover" alt="Game Cover" class="w-full h-48 object-cover">
+        <div class="p-4 text-center">
+          <h3 class="text-lg font-semibold text-cyan-400 mb-2">Block Sweep</h3>
+          <div class="flex justify-center gap-4 mt-3">
+            <a href="#" target="_blank">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" class="w-8 h-8" alt="App Store">
+            </a>
+            <a href="#" target="_blank">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Play_Arrow_logo.svg" class="w-8 h-8" alt="Google Play">
+            </a>
+            <a href="#" target="_blank">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/YouTube_social_white_circle_%282017%29.svg" class="w-8 h-8" alt="YouTube">
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center text-gray-500 text-sm mt-10 pb-6">
+    © 2025 Uğur Can Yıldırım. All rights reserved.
+  </footer>
+
 </body>
-
 </html>
